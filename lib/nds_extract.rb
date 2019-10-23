@@ -36,7 +36,9 @@ def list_of_directors(source)
 def total_gross(source)
   grand_total = 0
   all_directors_total = directors_totals(source)
-  all_director_name = list_of_directors(source) 
+  all_director_name = list_of_directors(source)
+  index = 0
+  while index < 
   # Write this implementation
   #
   # Should use methods:
